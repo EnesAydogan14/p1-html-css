@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUI</title>
+</head>
+<body>
+ 
+    <h1>BoekingsFormulier</h1>  
+
+    <form action="">
+
+<label for="firstname">Voornaam</label>
+<input type="text" name="firstname" pattern="[a-zA-z]">
+<br><br>
+
+<label for="surname">Achternaam</label>
+<input type="text" name="surname" pattern="[a-zA-z]">
+<br><br>
+
+<label for="gender">Geslacht</label>
+<input type="radio" name="gender" value="Man"> Man 
+<input type="radio" name="gender" value="Vrouw"> Vrouw
+<br><br>
+
+<label for="streetname">Adress</label>
+<input type="text" name="Streetname" pattern="[a-zA-z]">
+<input type="number" name="housenumber" style="width: 40px;">
+<br><br>
+
+<label for="zipcode">Postcode</label>
+<input type="text" name="zipcode" style="width: 70px;">
+<br><br>
+
+<label for="city">Stad</label>
+<input type="text" name="city" pattern="[a-zA-z]">
+<br><br>
+
+<label for="country">Land</label>
+<input type="text" name="country" pattern="[a-zA-z]">
+<br><br>
+
+<label for="cs">BSN-nummer</label>
+<input type="text" name="cs" pattern="[0-9]" maxlength="9" style="width: 100px;">
+<br><br>
+
+<label for="country">Vakantieland</label>
+<select name="landen" form="carform">
+    <option value="duitsland">Duitsland</option>
+    <option value="Turkiye">Turkiye</option>
+    <option value="italie">Italie</option>
+    <option value="Spanje">Spanje</option>
+  </select>
+<br><br>
+<label for="Date">Vertrekdatum</label>
+<input type="date" name="date" min="2024-09-18">
+<br><br>
+
+<label for="Date">Terugkomstdatum</label>
+<input type="date" name="date" min="2024-09-18">
+<br><br>
+
+<label for="amount">Aantal Reisgenoten</label>
+<input type="number" name="amount" maxlength="1" min="1" max="4" style="width: 30px;">
+<br><br>
+
+<label for="email">E-mail</label>
+<input type="email" name="email">
+<br><br>
+
+<label for="password">Wachtwoord</label>
+<input type="password" name="password">
+<br><br>
+
+<input type="submit" value="boek nu">
+
+
+</form>
+
+</body>
+</html>
