@@ -39,7 +39,7 @@ header{
 }
 img{
     width: 50vw;
-    height 50vh;
+    height: 50vh;
 }
 article{
     border-style: solid;
@@ -48,3 +48,4 @@ article{
     border-color: red;
     border-left-style: solid;
     border-left-width: 10px;
+}
